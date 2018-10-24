@@ -1,0 +1,51 @@
+.parent {
+	position:relative;
+	display: flex;
+}
+
+.parent object {
+		filter: brightness(70%);
+		height: 100vh;
+}
+.container1 {
+	position: absolute;
+	color: white;
+	padding: 0 80px;
+	font-family: Rosario, sans-serif;
+}
+
+.readmore {
+	text-decoration: none;
+	padding: 10px;
+	background: orange;
+	color: white;
+	border: 1px solid orange;
+	border-radius: 3px;
+	font-family: Rosario, sans-serif;
+}
+
+.readmore:hover {
+	background: #c15309;
+	border: 1px solid #c15309;
+	transition: background 0.3s ease;
+}
+
+.parent h1, .parent2 h1 {
+	font-family: 'Hammersmith One', sans-serif;
+	text-align:center;
+	color: black;
+}
+.parent p, .parent2 p {
+	font-size: 20px;
+	font-family: Rosario, sans-serif;
+	text-align: center;
+	margin: 50px;
+	text-shadow: 0 0 3px #c15309;
+}
+.parent2 {
+	position:relative;
+	display: flex;
+}
+.container2 {
+	position: absolute;
+	color: black;
